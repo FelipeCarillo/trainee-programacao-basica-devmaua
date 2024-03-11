@@ -23,7 +23,7 @@ O repositório está organizado da seguinte forma:
 1. Clone o repositório para sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/dev-community-maua-python-logic.git
+   git clone https://github.com/FelipeCarillo/trainee-programacao-basica-devmaua.git
    ```
 
 2. Explore os diretórios `/exercicios` e `/explicacoes` para encontrar os recursos necessários.
