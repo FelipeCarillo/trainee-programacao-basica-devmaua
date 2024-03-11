@@ -1,2 +1,5 @@
 Python Docs - https://www.python.org/doc/
 
+Instalação do Git - https://youtu.be/Am46OOLgV4s?si=i4bAI0DN7ZT6tt30
+
+Instalação do Python - https://youtu.be/hQayuyeEMy0?si=YvS__A5eD_R0_kjw
