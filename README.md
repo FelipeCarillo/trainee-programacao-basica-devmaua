@@ -16,7 +16,7 @@ O repositório está organizado da seguinte forma:
 
 1. **/exercicios:** Contém uma variedade de exercícios práticos para serem resolvidos pelos membros.
 2. **/explicacoes:** Fornece explicações detalhadas sobre conceitos de lógica de programação e suas implementações em Python.
-3. **/recursos:** Contém recursos adicionais, como links para tutoriais, artigos relevantes e materiais de estudo complementares.
+3. **/recursos:** Contém recursos adicionais, como links para tutoriais.
 
 ## Como Utilizar
 
