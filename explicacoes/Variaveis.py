@@ -1,5 +1,5 @@
 # Exemplo de variável numérica
-# As variáveis numéricas podem ser de três tipos: int e float
+# As variáveis numéricas podem ser de 2 tipos: int e float
 idade = 25
 altura = 1.75
 
@@ -7,9 +7,9 @@ altura = 1.75
 # As strings são imutáveis, ou seja, não podem ser alteradas
 nome = "João"
 sobrenome = "Silva"
-nome_completo = nome + " " + sobrenome
-nome_completo = f"{nome} {sobrenome}"
-nome_completo = "{} {}".format(nome, sobrenome)
+nome_completo = nome + " " + sobrenome # Concatenação
+nome_completo = f"{nome} {sobrenome}" # Interpolação
+nome_completo = "{} {}".format(nome, sobrenome) # Método format
 
 # Exemplo de variável booleana
 # As variáveis booleanas podem assumir apenas dois valores: True ou False
@@ -17,13 +17,30 @@ ativo = True
 aprovado = False
 
 # Exemplo de variável de lista
-# As listas são mutáveis, ou seja, podem ser alteradas
+# As listas sãTo mutáveis, ou seja, podem ser alteradas
 numeros = [1, 2, 3, 4, 5]
+numeros[0] # Output: 1
+numeros[1] # Output: 2
+numeros[2] # Output: 3
+numeros[3] # Output: 4
+numeros[4] # Output: 5
+
 nomes = ["Maria", "Pedro", "Ana"]
+nomes[0] # Output: "Maria"
+nomes[1] # Output: "Pedro"
+nomes[2] # Output: "Ana"
 
 # Exemplo de variável de dicionário
 # Os dicionários são compostos por pares de chave e valor
-pessoa = {"nome": "João", "idade": 25, "altura": 1.75}
+pessoa = {
+    "nome": "João",
+    "idade": 25,
+    "altura": 1.75
+}
+
+pessoa["nome"] # Output: "João"
+pessoa["idade"] # Output: 25
+pessoa["altura"] # Output: 1.75
 
 # Exemplo de variável de tupla
 # As tuplas são imutáveis, ou seja, não podem ser alteradas

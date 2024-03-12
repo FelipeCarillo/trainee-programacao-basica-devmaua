@@ -13,9 +13,9 @@ print("\nSoma:", soma)                # Output: Soma: 15
 print("\nSubtração:", subtracao)      # Output: Subtração: 5
 print("\nMultiplicação:", multiplicacao)  # Output: Multiplicação: 50
 print("\nDivisão:", divisao)          # Output: Divisão: 2.0
+print("\nDivisão inteira:", divisao_inteira)   # Output: Divisão inteira: 2
 print("\nResto:", resto)              # Output: Resto: 0
 print("\nPotência:", potencia)        # Output: Potência: 100000
-print("\nDivisão inteira:", divisao_inteira)   # Output: Divisão inteira: 2
 
 # Com strings
 nome = "Alice"

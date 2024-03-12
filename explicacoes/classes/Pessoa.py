@@ -1,3 +1,5 @@
+# Classes são modelos que definem como os objetos devem ser criados.
+
 class Pessoa:
     
     # O construtor da classe Pessoa recebe os atributos nome e idade

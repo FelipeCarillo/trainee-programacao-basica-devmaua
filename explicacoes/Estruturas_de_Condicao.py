@@ -59,3 +59,14 @@ if usuario_autenticado or tem_permissao:
     print("Acesso permitido.")
 else:
     print("Acesso negado.")
+
+# Exemplo 8: Uso de operadores lógicos com listas
+print("\nExemplo 8: Uso de operadores lógicos com listas\n")
+numeros = [1, 2, 3, 4, 5]
+tem_3 = 3 in numeros
+tem_6 = 6 in numeros
+
+if tem_3 and not tem_6:
+    print("A lista contém o número 3, mas não contém o número 6.")
+else:
+    print("A lista não contém o número 3 ou contém o número 6.")

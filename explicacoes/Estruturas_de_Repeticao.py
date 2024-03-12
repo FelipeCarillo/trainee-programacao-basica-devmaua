@@ -1,3 +1,7 @@
+# O for é uma estrutura de repetição que permite iterar sobre uma sequência de elementos, como uma lista, uma string ou um range.
+# O while é uma estrutura de repetição que executa um bloco de código enquanto uma condição for verdadeira.
+
+
 # Exemplo 1: Loop com for para iterar sobre uma lista
 print("\nExemplo 1: Loop com for para iterar sobre uma lista\n")
 frutas = ['maçã', 'banana', 'uva', 'morango']
@@ -11,6 +15,7 @@ for i in range(len(frutas)): # len(frutas) retorna o número de elementos na lis
 
 # Exemplo 2: Loop com for para gerar uma sequência numérica
 print("\nExemplo 2: Loop com for para gerar uma sequência numérica\n")
+# range(1, 6) == [1, 2, 3, 4, 5]
 for i in range(1, 6): # range(1, 6) gera uma sequência de 1 a 5 (6 não incluso)
     print(i)
 
@@ -19,7 +24,7 @@ print("\nExemplo 3: Loop com while para contar até 5\n")
 contador = 1
 while contador <= 5: # enquanto contador for menor ou igual a 5
     print(contador)
-    contador += 1
+    contador += 1 # contador = contador + 1
 
 # Exemplo 4: Loop com while e break para encontrar o primeiro número par em uma sequência
 print("\nExemplo 4: Loop com while e break para encontrar o primeiro número par em uma sequência\n")
