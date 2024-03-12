@@ -20,6 +20,13 @@ O repositório está organizado da seguinte forma:
 
 ## Como Utilizar
 
+### Download Zip
+
+1. Clique no botão code.
+2. Selecione a opção download Zip
+
+### Git Clone
+
 1. Clone o repositório para sua máquina local:
 
    ```bash
